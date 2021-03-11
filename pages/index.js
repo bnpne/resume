@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 const Index = () => {
   return (
-    <body className="px-3 py-2 w-full min-h-screen mx-auto overflow-hidden">
+    <body className="px-3 py-2 w-full min-h-screen mx-auto overflow-auto">
       <Head>
         <title>Ben Paine</title>
       </Head>
