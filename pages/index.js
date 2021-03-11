@@ -4,11 +4,11 @@ import Footer from '../components/Footer'
 
 const Index = () => {
   return (
-    <div className="px-3 py-2 w-full h-screen mx-auto">
+    <div className="">
       <Head>
         <title>Ben Paine</title>
       </Head>
-      <div className="text-7xl font-light tracking-tight space-y-12">
+      <div className="px-3 py-2 w-full mx-auto text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-light tracking-tight space-y-12">
         <div>
           <h1>Ben Paine</h1>
           <p>Front End Developer</p>
@@ -91,8 +91,8 @@ const Index = () => {
             (See Full Resume)
           </a>
         </div>
-      </div>
       <Footer />
+      </div>
     </div>
   )
 }
