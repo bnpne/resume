@@ -1,65 +1,100 @@
+import React from 'react'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Footer from '../components/Footer'
 
-export default function Home() {
+const Index = () => {
   return (
-    <div className={styles.container}>
+    <body className="px-3 py-2 w-full min-h-screen mx-auto overflow-hidden">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Ben Paine</title>
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
+      <div className="text-7xl font-light tracking-tight space-y-12">
+        <div>
+          <h1>Ben Paine</h1>
+          <p>Front End Developer</p>
+          <p>So. California</p>
+        </div>
+        <div className="pl-40">
+          <ul>
+            <li>
+              <a
+                className="hover:underline"
+                href="https://bnpne.io/"
+                target="_blank"
+              >
+                Website
+              </a>
+            </li>
+            <li>
+              <a
+                className="hover:underline"
+                href="mailto:bentppaine@gmail.com"
+                target="_blank"
+              >
+                Email
+              </a>
+            </li>
+            <li>
+              <a
+                className="hover:underline"
+                href="https://github.com/bnpne"
+                target="_blank"
+              >
+                Github
+              </a>
+            </li>
+            <li>
+              <a
+                className="hover:underline"
+                href="https://www.linkedin.com/in/benpaine/"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                className="hover:underline"
+                href="https://twitter.com/bnpneio"
+                target="_blank"
+              >
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>B.S Computer Science – Feb. 2021</p>
+        </div>
+        <div>
+          <p>Technical Skills</p>
+        </div>
+        <div className="pl-40">
+          <ul>
+            <li>React.js (Next.js)</li>
+            <li>TailwindCSS</li>
+            <li>CSS-in-JS</li>
+            <li>Google Firebase</li>
+            <li>MongoDB</li>
+            <li>AWS</li>
+            <li>Git (GitHub)</li>
+            <li>Figma</li>
+            <li>Adobe Creative Suite</li>
+          </ul>
+        </div>
+        <div>
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
+            className="hover:underline"
+            href="/Ben-Paine-Resume-Mar21.pdf"
+            target="_blank"
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            (See Full Resume)
           </a>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+      </div>
+      <Footer />
+    </body>
   )
 }
+
+export default Index
