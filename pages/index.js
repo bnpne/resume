@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 const Index = () => {
   return (
-    <body className="px-3 py-2 w-full h-screen mx-auto">
+    <div className="px-3 py-2 w-full h-screen mx-auto">
       <Head>
         <title>Ben Paine</title>
       </Head>
@@ -93,7 +93,7 @@ const Index = () => {
         </div>
       </div>
       <Footer />
-    </body>
+    </div>
   )
 }
 
