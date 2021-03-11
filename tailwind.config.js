@@ -1,12 +1,10 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
-
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Helvetica Neue', ...defaultTheme.fontFamily.sans],
+        sans: ['Helvetica Neue'],
       },
     },
   },
