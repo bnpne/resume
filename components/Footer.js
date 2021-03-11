@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="mt-32 mb-5 w-full overflow-y-hidden">
+    <footer className="pt-8 md:pt-12 mb-5 w-full overflow-y-hidden">
       <div className="flex justify-between items-baseline lg:items-center">
         <div className="space-y-2 block">
           <svg
