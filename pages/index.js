@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Footer from '../components/Footer'
-import useRouter from 'next/router'
+import {useRouter} from 'next/router'
 
 const Index = ({meta: pageMeta}) => {
   const router = useRouter()
